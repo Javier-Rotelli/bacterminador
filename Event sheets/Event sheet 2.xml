@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<c2eventsheet>
+    <!--All the 'name' attributes are ignored by Construct 2 - they are there for readability only.-->
+    <name>Event sheet 2</name>
+    <events>
+        <event-block sid="9135307114803783">
+            <conditions>
+                <condition id="-2" name="On start of layout" sid="3791059516391698" type="System" />
+            </conditions>
+            <actions>
+                <action id="1" name="Append text" sid="7772879518938007" type="Text">
+                    <param id="0" name="Text">global.Get(&quot;nombre&quot;)</param>
+                </action>
+            </actions>
+        </event-block>
+    </events>
+</c2eventsheet>
